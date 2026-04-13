@@ -9,7 +9,8 @@
     "windows_x86": "*windows_x86*.zip",
     "linux_x64": "*linux_x64*.zip",
     "linux_arm64": "*linux_arm64*.zip",
-    "darwin": "*darwin*.zip"
+    "darwin_x64": "*darwin_x64*.zip",
+    "darwin_arm64": "*darwin_arm64*.zip"
   },
   "executable": {
     "windows_x64": "dusk.exe",
@@ -17,7 +18,8 @@
     "windows_x86": "dusk.exe",
     "linux_x64": "dusk",
     "linux_arm64": "dusk",
-    "darwin": "dusk"
+    "darwin_x64": "dusk",
+    "darwin_arm64": "dusk"
   },
   "banner_colors": ["#3b0f72", "#08051a"]
 }

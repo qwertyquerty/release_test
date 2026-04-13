@@ -1,17 +1,20 @@
 {
-  "id": "dusk",
   "name": "Dusk",
   "subtitle": "The Legend of Zelda: Twilight Princess",
   "description": "When an evil darkness enshrouds the land of Hyrule, a young farm boy named Link must awaken the hero - and the animal - within.",
-  "asset_patterns": {
-    "windows_x64": "*windows_x64*.zip",
-    "windows_arm64": "*windows_arm64*.zip",
-    "windows_x86": "*windows_x86*.zip",
-    "linux_x64": "*linux_x64*.zip",
-    "linux_arm64": "*linux_arm64*.zip",
-    "darwin_x64": "*darwin_x64*.zip",
-    "darwin_arm64": "*darwin_arm64*.zip"
-  },
+  "releases": [
+    {
+      "version": "v1.1.0",
+      "assets": {
+        "windows_x64": "https://static.madeline.sh/tp/1.1.0/dusk_windows_x64_1.1.0.zip",
+        "windows_arm64": "https://static.madeline.sh/tp/1.1.0/dusk_windows_arm64_1.1.0.zip",
+        "linux_x64": "https://static.madeline.sh/tp/1.1.0/dusk_linux_x64_1.1.0.zip",
+        "linux_arm64": "https://static.madeline.sh/tp/1.1.0/dusk_linux_arm64_1.1.0.zip",
+        "darwin_x64": "https://static.madeline.sh/tp/1.1.0/dusk_darwin_arm64_1.1.0.zip",
+        "darwin_arm64": "https://static.madeline.sh/tp/1.1.0/dusk_darwin_arm64_1.1.0.zip"
+      }
+    }
+  ],
   "executable": {
     "windows_x64": "dusk.exe",
     "windows_arm64": "dusk.exe",

@@ -1,0 +1,17 @@
+{
+  "id": "dusk",
+  "name": "Dusk",
+  "subtitle": "The Legend of Zelda: Twilight Princess",
+  "description": "When an evil darkness enshrouds the land of Hyrule, a young farm boy named Link must awaken the hero - and the animal - within.",
+    "asset_patterns": {
+        "windows": "*windows*.zip",
+        "linux": "*linux*.tar.gz",
+        "darwin": "*macos*.tar.gz"
+    },
+    "executable": {
+        "windows": "dusk.exe",
+        "linux": "dusk",
+        "darwin": "dusk"
+    },
+  "banner_colors": ["#3b0f72", "#08051a"]
+}
